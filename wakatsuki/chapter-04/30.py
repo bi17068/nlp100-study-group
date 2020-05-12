@@ -24,8 +24,8 @@ def allLists(path):
 
   return all_list
 
-with open(wpath, 'w') as f:
-    f.writelines(str(allLists(path)))
+# with open(wpath, 'w') as f:
+#     f.writelines(str(allLists(path)))
 
 from pprint import pprint
 pprint(allLists(path)[:10])
